@@ -15,7 +15,7 @@ jobs:
       - name: Setup .net 5
         uses: actions/setup-dotnet@v1
         with:
-          dotnot-version: '5.0.x'
+          dotnet-version: '5.0.x'
 
       - name: Restore dependencies
         run: dotnet restore
