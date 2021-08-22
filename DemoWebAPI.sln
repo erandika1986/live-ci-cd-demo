@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebAPI", "DemoWebAPI\DemoWebAPI.csproj", "{02A4995D-5408-42E2-AB50-86515D832079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebAPI", "DemoWebAPI\DemoWebAPI.csproj", "{02A4995D-5408-42E2-AB50-86515D832079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb.Test", "DemoWeb.Test\DemoWeb.Test.csproj", "{3D2D4630-2F32-4AAB-ACFD-E53482612BC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{02A4995D-5408-42E2-AB50-86515D832079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02A4995D-5408-42E2-AB50-86515D832079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02A4995D-5408-42E2-AB50-86515D832079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2D4630-2F32-4AAB-ACFD-E53482612BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2D4630-2F32-4AAB-ACFD-E53482612BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2D4630-2F32-4AAB-ACFD-E53482612BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2D4630-2F32-4AAB-ACFD-E53482612BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
